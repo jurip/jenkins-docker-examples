@@ -7,7 +7,7 @@ job('an-example-of-github-project') {
     scm {
         git {
             remote {
-                github('gradle/continuous-delivery-jump-start', 'https')
+                github('jurip/continuous-delivery-jump-start', 'https')
             }
             branch('master')
         }
